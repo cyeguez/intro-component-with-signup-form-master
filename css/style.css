@@ -90,9 +90,12 @@ main{
   padding-left: 10px;
   font-weight: 700;
   border: 1px solid var(--Grayish-Blue);
+  outline: none;
+  
 }
+
 .alert{
-  border:1px solid  red;
+  color:red;
 }
 .error {
   position: absolute; 
@@ -109,7 +112,7 @@ main{
 .error-message {
   color:red;
   font-size: 1rem;
-  padding-top: 20px;
+  margin-top: -10px;
   font-style: italic;
   padding-right: -20px;
    
@@ -127,6 +130,7 @@ main{
   text-align: center;
   font-weight: 700;
   box-shadow: 0 5px 0 hsl(154, 57%, 46%) ;
+  cursor: pointer;
 }
 .container__form__condition {
   width: 100%;
@@ -145,8 +149,9 @@ main{
 /*                                   footer                                   */
 /* -------------------------------------------------------------------------- */
 .attribution {
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
+  
 }
 
 .attribution a {
